@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/daiwal">
+<Resource type="javax.sql.DataSource"
+            name="jdbc/Banco"
+            driverClassName="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/Banco"
+            username="root"
+            password="root"
+            removeAbandoned="true"
+            removeAbandonedTimeout="30"
+            maxActive="100"
+            maxIdle="30"
+            maxWait="10000"
+/>
+</Context>
